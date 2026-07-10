@@ -1,0 +1,23 @@
+{
+  "name": "qaninjas",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "generate-feature": "node utils/generatefeature.js",
+    "test": "playwright test"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@playwright/test": "^1.61.1",
+    "@types/node": "^26.1.0",
+    "playwright-bdd": "^9.2.0"
+  },
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  }
+  
+}
