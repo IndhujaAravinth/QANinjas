@@ -1,13 +1,14 @@
 import { createBdd } from 'playwright-bdd';
-import { test, expect } from '@playwright/test';
 import { Loginpage } from '../pages/loginpage.js';
 import { readExcelData } from '../utils/excelHelper.js';
+import logger from '../utils/logger.js';
 
 const excelFile = './test-data/TestDataCRM.xlsx';
 const {Given, When, Then} = createBdd();
 
 Given('user opens the login page', async ({ page }) => {
   const loginPage = new Loginpage(page);
+  logger.info("Opening Login Page");
   await loginPage.launchSuiteCRM();
 });
 
@@ -25,3 +26,5 @@ Then ('user is redirected to the Home page', async ({ page }) => {
     const loginPage = new Loginpage(page);
     await loginPage.verifyHomePage();
 });
+
+

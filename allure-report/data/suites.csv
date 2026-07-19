@@ -1,0 +1,2 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","8015","Verify Current Date","chromium","2026-07-19","passed","2026-07-19","CRMCalendar","features\calendarpage.feature.spec.js","",""
