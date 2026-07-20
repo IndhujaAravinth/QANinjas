@@ -13,7 +13,7 @@ node_modules/
 /playwright/.auth/
 
 # Logs
-logs/*.log
+logs/test.log
 
 # Allure reports
 allure-results/
