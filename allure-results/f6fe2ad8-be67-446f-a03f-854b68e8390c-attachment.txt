@@ -1,0 +1,45 @@
+2026-07-20 02:07:35 [INFO] : Opening Login Page
+Excel Data: [
+  {
+    username: 'will',
+    password: 'will',
+    accountname: 'Tesla Mod',
+    email: 'tesla.mod@redmail.com',
+    billingstreet: '100 Vail Road',
+    billingpostalcode: '07054',
+    billingcity: 'Parsippany',
+    billingstate: 'New Jersey',
+    billingcountry: 'USA',
+    desc: 'Testing purpose Account Creation',
+    meetingsubject: 'Automation Roadmap',
+    meetingstartdate: '2026-07-20',
+    meetingstarthr: 10,
+    meetingstartmin: '00',
+    meetingenddate: '2026-12-31',
+    meetingendhr: 10,
+    meetingendmin: '30',
+    meetingdesc: 'Updates on E2E flow',
+    meetingcontactfname: 'Indu',
+    meetingcontactlname: 'Arav',
+    meetingcontactemail: 'indu@gmail.com',
+    callsubject: 'Automation discussion',
+    callstartdate: '2026-07-25',
+    callstarthr: 3,
+    callstartmin: '15',
+    callduration: '30',
+    calldesc: 'Testing Calendar - Schedule calls functionality',
+    callinviteesfname: 'happy',
+    callinviteeslname: 'nova',
+    callinviteesemail: 'happy@nova.com',
+    tasksubject: 'Happy task',
+    taskstartdate: '2026-07-16 00:00',
+    taskduedate: '2026-08-31 11:59',
+    taskpriority: 'High',
+    taskdesc: 'abcdefgh',
+    taskstatus: 'Not Started',
+    taskaccount: 'Opportunity'
+  }
+]
+2026-07-20 02:07:39 [INFO] : Enter username and password
+2026-07-20 02:07:39 [INFO] : Clicking Login button
+2026-07-20 02:07:39 [INFO] : Login successful
