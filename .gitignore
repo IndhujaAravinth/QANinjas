@@ -1,9 +1,23 @@
 
-# Playwright
+# Dependencies
 node_modules/
+
+# Playwright reports
 /test-results/
 /playwright-report/
 /allure-results/
 /blob-report/
+
+# Playwright cache and authentication
 /playwright/.cache/
 /playwright/.auth/
+
+# Logs
+logs/*.log
+
+# Allure reports
+allure-results/
+allure-report/
+
+# BDD generated files
+.features-gen/
